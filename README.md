@@ -5,7 +5,7 @@ Python modules used were tkinter, sqlite3, random, captcha
 I recently ran into the problem of forgetting passwords to different websites and having to constantly reset my passwords. I know that password managers like this have been done in the past however, I wanted to see if I could create my own. I had a vision for a pin that was inpsired by the google password manager. I wanted to learn how to use the tkinter module to create a graphical user interface and wanted to store information using sql. By completing this project I was able to learn a little about how to use the tkinter module and some sql I hope to learn more about user interface in the future.
 
 ## Captcha Window
-![Captcha Window](/images/Captcha Window.png)
+![Captcha Window](/Images/Captcha Window.png)
 * When the user opens the program they are prompted to enter a captcha image that is generated from uppercase letters, lowercase letters, and digits. 
 * The user is prompted to enter the captcha from the image into a textbox.  
 * New Captcha button is used to generate a new captcha image, in situations where it is too difficult for the user to read. 
@@ -14,7 +14,7 @@ I recently ran into the problem of forgetting passwords to different websites an
 * If the user enters the captcha correctly, then a green "correct" message appears and all buttons and text boxes are cleared and showing the Pin window. 
 
 ## Pin Window
-![Pin Window](/images/Pin Window.png)
+![Pin Window](/Images/Pin Window.png)
 * The user is prompted by text to either create a pin or enter the pin they had created.  
 * The user is shown a bank pin that has buttons with numbers 0-9 with buttons at the right side, clear, cancel, and enter. 
 * When the user hits any of the digit buttons an asterisk is put onto the textbox and the number is stored. 
@@ -26,7 +26,7 @@ I recently ran into the problem of forgetting passwords to different websites an
 * If the user enters the correct pin, then the screen is cleared of all buttons and shows the Manage Accounts window. 
 
 ## Manage Accounts Window 
-![Account Window](/images/Account Window.png)
+![Account Window](/Images/Account Window.png)
 * The user prompted to enter an account name, username, and password. Ex. “google”, “123@gmail.com”, “Password123”. 
 * After entering these text boxes, they are allowed to hit any of the six buttons, update, create, show, clear, remove, and exit 
 * The create button takes the text from the account, username, and password entries and creates a table in SQLite if it is the first row. Otherwise
