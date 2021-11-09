@@ -6,6 +6,7 @@ I recently ran into the problem of forgetting passwords to different websites an
 
 ## Captcha Window
 ![Captcha Window](/Images/Captcha Window.png)
+Format: ![Alt Text](url)
 * When the user opens the program they are prompted to enter a captcha image that is generated from uppercase letters, lowercase letters, and digits. 
 * The user is prompted to enter the captcha from the image into a textbox.  
 * New Captcha button is used to generate a new captcha image, in situations where it is too difficult for the user to read. 
@@ -15,6 +16,7 @@ I recently ran into the problem of forgetting passwords to different websites an
 
 ## Pin Window
 ![Pin Window](/Images/Pin Window.png)
+Format: ![Alt Text](url)
 * The user is prompted by text to either create a pin or enter the pin they had created.  
 * The user is shown a bank pin that has buttons with numbers 0-9 with buttons at the right side, clear, cancel, and enter. 
 * When the user hits any of the digit buttons an asterisk is put onto the textbox and the number is stored. 
@@ -27,6 +29,7 @@ I recently ran into the problem of forgetting passwords to different websites an
 
 ## Manage Accounts Window 
 ![Account Window](/Images/Account Window.png)
+Format: ![Alt Text](url)
 * The user prompted to enter an account name, username, and password. Ex. “google”, “123@gmail.com”, “Password123”. 
 * After entering these text boxes, they are allowed to hit any of the six buttons, update, create, show, clear, remove, and exit 
 * The create button takes the text from the account, username, and password entries and creates a table in SQLite if it is the first row. Otherwise
